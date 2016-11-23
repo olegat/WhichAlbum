@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AA48B9E1DE5AFD600C34C83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA48B9D1DE5AFD600C34C83 /* Images.xcassets */; };
+		5AF76EFE1DE58E71004C570E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF76EFD1DE58E71004C570E /* AppDelegate.m */; };
+		5AF76F011DE58E71004C570E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF76F001DE58E71004C570E /* main.m */; };
+		5AF76F061DE58E71004C570E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AF76F041DE58E71004C570E /* MainMenu.xib */; };
+		5AF76F111DE58E71004C570E /* WhichAlbumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF76F101DE58E71004C570E /* WhichAlbumTests.m */; };
+		5AF76F1C1DE58E71004C570E /* WhichAlbumUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF76F1B1DE58E71004C570E /* WhichAlbumUITests.m */; };
+		5AF76F321DE595B9004C570E /* PieceOfMind.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AF76F301DE595B9004C570E /* PieceOfMind.jpg */; };
+		5AF76F331DE595B9004C570E /* TheNumberOfTheBeast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AF76F311DE595B9004C570E /* TheNumberOfTheBeast.jpg */; };
+		5AF76F381DE5A10D004C570E /* IronMaiden.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AF76F341DE5A10D004C570E /* IronMaiden.jpg */; };
+		5AF76F391DE5A10D004C570E /* Killers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AF76F351DE5A10D004C570E /* Killers.jpg */; };
+		5AF76F3A1DE5A10D004C570E /* LiveAfterDeath.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AF76F361DE5A10D004C570E /* LiveAfterDeath.jpg */; };
+		5AF76F3B1DE5A10D004C570E /* Powerslave.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AF76F371DE5A10D004C570E /* Powerslave.jpg */; };
+		5AF76F3E1DE5A267004C570E /* SeventhSonOfASeventhSon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AF76F3C1DE5A267004C570E /* SeventhSonOfASeventhSon.jpg */; };
+		5AF76F3F1DE5A267004C570E /* SomewhereInTime.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AF76F3D1DE5A267004C570E /* SomewhereInTime.jpg */; };
+		5AF76F501DE5A4E0004C570E /* AMatterOfLifeAndDeath.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AF76F401DE5A4E0004C570E /* AMatterOfLifeAndDeath.jpg */; };
+		5AF76F511DE5A4E0004C570E /* ARealLiveDeadOne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AF76F411DE5A4E0004C570E /* ARealLiveDeadOne.jpg */; };
+		5AF76F521DE5A4E0004C570E /* ARealLiveOne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AF76F421DE5A4E0004C570E /* ARealLiveOne.jpg */; };
+		5AF76F531DE5A4E0004C570E /* BraveNewWorld.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AF76F431DE5A4E0004C570E /* BraveNewWorld.jpg */; };
+		5AF76F541DE5A4E0004C570E /* DanceOfDeath.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AF76F441DE5A4E0004C570E /* DanceOfDeath.jpg */; };
+		5AF76F551DE5A4E0004C570E /* DeathOnTheRoad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AF76F451DE5A4E0004C570E /* DeathOnTheRoad.jpg */; };
+		5AF76F561DE5A4E0004C570E /* EnVivo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AF76F461DE5A4E0004C570E /* EnVivo.jpg */; };
+		5AF76F571DE5A4E0004C570E /* FearOfTheDark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AF76F471DE5A4E0004C570E /* FearOfTheDark.jpg */; };
+		5AF76F581DE5A4E0004C570E /* LiveAtDonington.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AF76F481DE5A4E0004C570E /* LiveAtDonington.jpg */; };
+		5AF76F591DE5A4E0004C570E /* MaidenEnland.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AF76F491DE5A4E0004C570E /* MaidenEnland.jpg */; };
+		5AF76F5A1DE5A4E0004C570E /* NoPrayerForTheDying.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AF76F4A1DE5A4E0004C570E /* NoPrayerForTheDying.jpg */; };
+		5AF76F5B1DE5A4E0004C570E /* RockInRio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AF76F4B1DE5A4E0004C570E /* RockInRio.jpg */; };
+		5AF76F5C1DE5A4E0004C570E /* TheBookOfSouls.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AF76F4C1DE5A4E0004C570E /* TheBookOfSouls.jpg */; };
+		5AF76F5D1DE5A4E0004C570E /* TheFinalFrontier.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AF76F4D1DE5A4E0004C570E /* TheFinalFrontier.jpg */; };
+		5AF76F5E1DE5A4E0004C570E /* TheXFactor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AF76F4E1DE5A4E0004C570E /* TheXFactor.jpg */; };
+		5AF76F5F1DE5A4E0004C570E /* VirtualXI.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AF76F4F1DE5A4E0004C570E /* VirtualXI.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AF76F0D1DE58E71004C570E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AF76EF11DE58E71004C570E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AF76EF81DE58E71004C570E;
+			remoteInfo = WhichAlbum;
+		};
+		5AF76F181DE58E71004C570E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AF76EF11DE58E71004C570E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AF76EF81DE58E71004C570E;
+			remoteInfo = WhichAlbum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AA48B9D1DE5AFD600C34C83 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5AF76EF91DE58E71004C570E /* WhichAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhichAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AF76EFC1DE58E71004C570E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5AF76EFD1DE58E71004C570E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5AF76F001DE58E71004C570E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AF76F051DE58E71004C570E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5AF76F071DE58E71004C570E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AF76F0C1DE58E71004C570E /* WhichAlbumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhichAlbumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AF76F101DE58E71004C570E /* WhichAlbumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhichAlbumTests.m; sourceTree = "<group>"; };
+		5AF76F121DE58E71004C570E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AF76F171DE58E71004C570E /* WhichAlbumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhichAlbumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AF76F1B1DE58E71004C570E /* WhichAlbumUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhichAlbumUITests.m; sourceTree = "<group>"; };
+		5AF76F1D1DE58E71004C570E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AF76F301DE595B9004C570E /* PieceOfMind.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PieceOfMind.jpg; sourceTree = "<group>"; };
+		5AF76F311DE595B9004C570E /* TheNumberOfTheBeast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheNumberOfTheBeast.jpg; sourceTree = "<group>"; };
+		5AF76F341DE5A10D004C570E /* IronMaiden.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IronMaiden.jpg; sourceTree = "<group>"; };
+		5AF76F351DE5A10D004C570E /* Killers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Killers.jpg; sourceTree = "<group>"; };
+		5AF76F361DE5A10D004C570E /* LiveAfterDeath.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LiveAfterDeath.jpg; sourceTree = "<group>"; };
+		5AF76F371DE5A10D004C570E /* Powerslave.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Powerslave.jpg; sourceTree = "<group>"; };
+		5AF76F3C1DE5A267004C570E /* SeventhSonOfASeventhSon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SeventhSonOfASeventhSon.jpg; sourceTree = "<group>"; };
+		5AF76F3D1DE5A267004C570E /* SomewhereInTime.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SomewhereInTime.jpg; sourceTree = "<group>"; };
+		5AF76F401DE5A4E0004C570E /* AMatterOfLifeAndDeath.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AMatterOfLifeAndDeath.jpg; sourceTree = "<group>"; };
+		5AF76F411DE5A4E0004C570E /* ARealLiveDeadOne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ARealLiveDeadOne.jpg; sourceTree = "<group>"; };
+		5AF76F421DE5A4E0004C570E /* ARealLiveOne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ARealLiveOne.jpg; sourceTree = "<group>"; };
+		5AF76F431DE5A4E0004C570E /* BraveNewWorld.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BraveNewWorld.jpg; sourceTree = "<group>"; };
+		5AF76F441DE5A4E0004C570E /* DanceOfDeath.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DanceOfDeath.jpg; sourceTree = "<group>"; };
+		5AF76F451DE5A4E0004C570E /* DeathOnTheRoad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DeathOnTheRoad.jpg; sourceTree = "<group>"; };
+		5AF76F461DE5A4E0004C570E /* EnVivo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EnVivo.jpg; sourceTree = "<group>"; };
+		5AF76F471DE5A4E0004C570E /* FearOfTheDark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FearOfTheDark.jpg; sourceTree = "<group>"; };
+		5AF76F481DE5A4E0004C570E /* LiveAtDonington.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LiveAtDonington.jpg; sourceTree = "<group>"; };
+		5AF76F491DE5A4E0004C570E /* MaidenEnland.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MaidenEnland.jpg; sourceTree = "<group>"; };
+		5AF76F4A1DE5A4E0004C570E /* NoPrayerForTheDying.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NoPrayerForTheDying.jpg; sourceTree = "<group>"; };
+		5AF76F4B1DE5A4E0004C570E /* RockInRio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RockInRio.jpg; sourceTree = "<group>"; };
+		5AF76F4C1DE5A4E0004C570E /* TheBookOfSouls.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheBookOfSouls.jpg; sourceTree = "<group>"; };
+		5AF76F4D1DE5A4E0004C570E /* TheFinalFrontier.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheFinalFrontier.jpg; sourceTree = "<group>"; };
+		5AF76F4E1DE5A4E0004C570E /* TheXFactor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheXFactor.jpg; sourceTree = "<group>"; };
+		5AF76F4F1DE5A4E0004C570E /* VirtualXI.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = VirtualXI.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AF76EF61DE58E71004C570E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AF76F091DE58E71004C570E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AF76F141DE58E71004C570E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AF76EF01DE58E71004C570E = {
+			isa = PBXGroup;
+			children = (
+				5AF76EFB1DE58E71004C570E /* WhichAlbum */,
+				5AF76F0F1DE58E71004C570E /* WhichAlbumTests */,
+				5AF76F1A1DE58E71004C570E /* WhichAlbumUITests */,
+				5AF76EFA1DE58E71004C570E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AF76EFA1DE58E71004C570E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AF76EF91DE58E71004C570E /* WhichAlbum.app */,
+				5AF76F0C1DE58E71004C570E /* WhichAlbumTests.xctest */,
+				5AF76F171DE58E71004C570E /* WhichAlbumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AF76EFB1DE58E71004C570E /* WhichAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				5AF76EFC1DE58E71004C570E /* AppDelegate.h */,
+				5AF76EFD1DE58E71004C570E /* AppDelegate.m */,
+				5AF76F041DE58E71004C570E /* MainMenu.xib */,
+				5AF76F071DE58E71004C570E /* Info.plist */,
+				5AF76EFF1DE58E71004C570E /* Supporting Files */,
+				5AF76F2F1DE595B9004C570E /* Albums */,
+				5AA48B9D1DE5AFD600C34C83 /* Images.xcassets */,
+			);
+			path = WhichAlbum;
+			sourceTree = "<group>";
+		};
+		5AF76EFF1DE58E71004C570E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AF76F001DE58E71004C570E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AF76F0F1DE58E71004C570E /* WhichAlbumTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AF76F101DE58E71004C570E /* WhichAlbumTests.m */,
+				5AF76F121DE58E71004C570E /* Info.plist */,
+			);
+			path = WhichAlbumTests;
+			sourceTree = "<group>";
+		};
+		5AF76F1A1DE58E71004C570E /* WhichAlbumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5AF76F1B1DE58E71004C570E /* WhichAlbumUITests.m */,
+				5AF76F1D1DE58E71004C570E /* Info.plist */,
+			);
+			path = WhichAlbumUITests;
+			sourceTree = "<group>";
+		};
+		5AF76F2F1DE595B9004C570E /* Albums */ = {
+			isa = PBXGroup;
+			children = (
+				5AF76F401DE5A4E0004C570E /* AMatterOfLifeAndDeath.jpg */,
+				5AF76F411DE5A4E0004C570E /* ARealLiveDeadOne.jpg */,
+				5AF76F421DE5A4E0004C570E /* ARealLiveOne.jpg */,
+				5AF76F431DE5A4E0004C570E /* BraveNewWorld.jpg */,
+				5AF76F441DE5A4E0004C570E /* DanceOfDeath.jpg */,
+				5AF76F451DE5A4E0004C570E /* DeathOnTheRoad.jpg */,
+				5AF76F461DE5A4E0004C570E /* EnVivo.jpg */,
+				5AF76F471DE5A4E0004C570E /* FearOfTheDark.jpg */,
+				5AF76F341DE5A10D004C570E /* IronMaiden.jpg */,
+				5AF76F351DE5A10D004C570E /* Killers.jpg */,
+				5AF76F361DE5A10D004C570E /* LiveAfterDeath.jpg */,
+				5AF76F481DE5A4E0004C570E /* LiveAtDonington.jpg */,
+				5AF76F491DE5A4E0004C570E /* MaidenEnland.jpg */,
+				5AF76F4A1DE5A4E0004C570E /* NoPrayerForTheDying.jpg */,
+				5AF76F301DE595B9004C570E /* PieceOfMind.jpg */,
+				5AF76F371DE5A10D004C570E /* Powerslave.jpg */,
+				5AF76F4B1DE5A4E0004C570E /* RockInRio.jpg */,
+				5AF76F3C1DE5A267004C570E /* SeventhSonOfASeventhSon.jpg */,
+				5AF76F3D1DE5A267004C570E /* SomewhereInTime.jpg */,
+				5AF76F4C1DE5A4E0004C570E /* TheBookOfSouls.jpg */,
+				5AF76F4D1DE5A4E0004C570E /* TheFinalFrontier.jpg */,
+				5AF76F311DE595B9004C570E /* TheNumberOfTheBeast.jpg */,
+				5AF76F4E1DE5A4E0004C570E /* TheXFactor.jpg */,
+				5AF76F4F1DE5A4E0004C570E /* VirtualXI.jpg */,
+			);
+			path = Albums;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AF76EF81DE58E71004C570E /* WhichAlbum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AF76F201DE58E71004C570E /* Build configuration list for PBXNativeTarget "WhichAlbum" */;
+			buildPhases = (
+				5AF76EF51DE58E71004C570E /* Sources */,
+				5AF76EF61DE58E71004C570E /* Frameworks */,
+				5AF76EF71DE58E71004C570E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhichAlbum;
+			productName = WhichAlbum;
+			productReference = 5AF76EF91DE58E71004C570E /* WhichAlbum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AF76F0B1DE58E71004C570E /* WhichAlbumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AF76F231DE58E71004C570E /* Build configuration list for PBXNativeTarget "WhichAlbumTests" */;
+			buildPhases = (
+				5AF76F081DE58E71004C570E /* Sources */,
+				5AF76F091DE58E71004C570E /* Frameworks */,
+				5AF76F0A1DE58E71004C570E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AF76F0E1DE58E71004C570E /* PBXTargetDependency */,
+			);
+			name = WhichAlbumTests;
+			productName = WhichAlbumTests;
+			productReference = 5AF76F0C1DE58E71004C570E /* WhichAlbumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5AF76F161DE58E71004C570E /* WhichAlbumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AF76F261DE58E71004C570E /* Build configuration list for PBXNativeTarget "WhichAlbumUITests" */;
+			buildPhases = (
+				5AF76F131DE58E71004C570E /* Sources */,
+				5AF76F141DE58E71004C570E /* Frameworks */,
+				5AF76F151DE58E71004C570E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AF76F191DE58E71004C570E /* PBXTargetDependency */,
+			);
+			name = WhichAlbumUITests;
+			productName = WhichAlbumUITests;
+			productReference = 5AF76F171DE58E71004C570E /* WhichAlbumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AF76EF11DE58E71004C570E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Feral Interactive Ltd.";
+				TargetAttributes = {
+					5AF76EF81DE58E71004C570E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					5AF76F0B1DE58E71004C570E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5AF76EF81DE58E71004C570E;
+					};
+					5AF76F161DE58E71004C570E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5AF76EF81DE58E71004C570E;
+					};
+				};
+			};
+			buildConfigurationList = 5AF76EF41DE58E71004C570E /* Build configuration list for PBXProject "WhichAlbum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AF76EF01DE58E71004C570E;
+			productRefGroup = 5AF76EFA1DE58E71004C570E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AF76EF81DE58E71004C570E /* WhichAlbum */,
+				5AF76F0B1DE58E71004C570E /* WhichAlbumTests */,
+				5AF76F161DE58E71004C570E /* WhichAlbumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AF76EF71DE58E71004C570E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF76F381DE5A10D004C570E /* IronMaiden.jpg in Resources */,
+				5AF76F331DE595B9004C570E /* TheNumberOfTheBeast.jpg in Resources */,
+				5AF76F501DE5A4E0004C570E /* AMatterOfLifeAndDeath.jpg in Resources */,
+				5AA48B9E1DE5AFD600C34C83 /* Images.xcassets in Resources */,
+				5AF76F531DE5A4E0004C570E /* BraveNewWorld.jpg in Resources */,
+				5AF76F511DE5A4E0004C570E /* ARealLiveDeadOne.jpg in Resources */,
+				5AF76F521DE5A4E0004C570E /* ARealLiveOne.jpg in Resources */,
+				5AF76F591DE5A4E0004C570E /* MaidenEnland.jpg in Resources */,
+				5AF76F321DE595B9004C570E /* PieceOfMind.jpg in Resources */,
+				5AF76F391DE5A10D004C570E /* Killers.jpg in Resources */,
+				5AF76F5B1DE5A4E0004C570E /* RockInRio.jpg in Resources */,
+				5AF76F541DE5A4E0004C570E /* DanceOfDeath.jpg in Resources */,
+				5AF76F5F1DE5A4E0004C570E /* VirtualXI.jpg in Resources */,
+				5AF76F571DE5A4E0004C570E /* FearOfTheDark.jpg in Resources */,
+				5AF76F561DE5A4E0004C570E /* EnVivo.jpg in Resources */,
+				5AF76F3E1DE5A267004C570E /* SeventhSonOfASeventhSon.jpg in Resources */,
+				5AF76F551DE5A4E0004C570E /* DeathOnTheRoad.jpg in Resources */,
+				5AF76F581DE5A4E0004C570E /* LiveAtDonington.jpg in Resources */,
+				5AF76F3B1DE5A10D004C570E /* Powerslave.jpg in Resources */,
+				5AF76F3F1DE5A267004C570E /* SomewhereInTime.jpg in Resources */,
+				5AF76F5E1DE5A4E0004C570E /* TheXFactor.jpg in Resources */,
+				5AF76F061DE58E71004C570E /* MainMenu.xib in Resources */,
+				5AF76F5A1DE5A4E0004C570E /* NoPrayerForTheDying.jpg in Resources */,
+				5AF76F5C1DE5A4E0004C570E /* TheBookOfSouls.jpg in Resources */,
+				5AF76F3A1DE5A10D004C570E /* LiveAfterDeath.jpg in Resources */,
+				5AF76F5D1DE5A4E0004C570E /* TheFinalFrontier.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AF76F0A1DE58E71004C570E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AF76F151DE58E71004C570E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AF76EF51DE58E71004C570E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF76F011DE58E71004C570E /* main.m in Sources */,
+				5AF76EFE1DE58E71004C570E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AF76F081DE58E71004C570E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF76F111DE58E71004C570E /* WhichAlbumTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AF76F131DE58E71004C570E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF76F1C1DE58E71004C570E /* WhichAlbumUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AF76F0E1DE58E71004C570E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AF76EF81DE58E71004C570E /* WhichAlbum */;
+			targetProxy = 5AF76F0D1DE58E71004C570E /* PBXContainerItemProxy */;
+		};
+		5AF76F191DE58E71004C570E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AF76EF81DE58E71004C570E /* WhichAlbum */;
+			targetProxy = 5AF76F181DE58E71004C570E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5AF76F041DE58E71004C570E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AF76F051DE58E71004C570E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AF76F1E1DE58E71004C570E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5AF76F1F1DE58E71004C570E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5AF76F211DE58E71004C570E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WhichAlbum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.legato.WhichAlbum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5AF76F221DE58E71004C570E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WhichAlbum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.legato.WhichAlbum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5AF76F241DE58E71004C570E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WhichAlbumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.legato.WhichAlbumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhichAlbum.app/Contents/MacOS/WhichAlbum";
+			};
+			name = Debug;
+		};
+		5AF76F251DE58E71004C570E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WhichAlbumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.legato.WhichAlbumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhichAlbum.app/Contents/MacOS/WhichAlbum";
+			};
+			name = Release;
+		};
+		5AF76F271DE58E71004C570E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WhichAlbumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.legato.WhichAlbumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WhichAlbum;
+			};
+			name = Debug;
+		};
+		5AF76F281DE58E71004C570E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WhichAlbumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.legato.WhichAlbumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WhichAlbum;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AF76EF41DE58E71004C570E /* Build configuration list for PBXProject "WhichAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AF76F1E1DE58E71004C570E /* Debug */,
+				5AF76F1F1DE58E71004C570E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AF76F201DE58E71004C570E /* Build configuration list for PBXNativeTarget "WhichAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AF76F211DE58E71004C570E /* Debug */,
+				5AF76F221DE58E71004C570E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AF76F231DE58E71004C570E /* Build configuration list for PBXNativeTarget "WhichAlbumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AF76F241DE58E71004C570E /* Debug */,
+				5AF76F251DE58E71004C570E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AF76F261DE58E71004C570E /* Build configuration list for PBXNativeTarget "WhichAlbumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AF76F271DE58E71004C570E /* Debug */,
+				5AF76F281DE58E71004C570E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AF76EF11DE58E71004C570E /* Project object */;
+}
