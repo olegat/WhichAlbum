@@ -699,7 +699,7 @@
                     <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Lw-Ll-y7n">
                         <rect key="frame" x="160" y="399" width="65" height="18"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="check" title=" Studio" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="r4P-nh-bR0">
+                        <buttonCell key="cell" type="check" title="Studio" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="r4P-nh-bR0">
                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
@@ -739,7 +739,7 @@
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ujR-Rg-zW9">
                         <rect key="frame" x="14" y="387" width="127" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="Which Ablum?" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ggK-Nq-GPu">
+                        <buttonCell key="cell" type="push" title="Which Album?" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ggK-Nq-GPu">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                             <connections>
